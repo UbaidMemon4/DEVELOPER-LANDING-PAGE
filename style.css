@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.pimg {
+  background-image: url(Images/developer.png);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.ptext {
+  text-align: start;
+  padding-top: 5%;
+  font-size: 27px;
+  color: white;
+  padding-left: 25%;
+}
+.size {
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pcolor {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 1% 0%;
+  font-family: cursive;
+}
+.size1 {
+  font-size: 80px;
+}
+.web {
+  margin: 10% 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 320px;
+  height: 500px;
+  border: 10px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+}
+.web_text,
+.uiux_text,
+.mobile_text {
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact_about {
+  display: flex;
+  color: white;
+}
+.contact_me {
+  background-color: rgb(0, 95, 0);
+  padding: 30px;
+}
+.about_me {
+  background-color: rgb(146, 0, 0);
+  padding: 30px;
+}
+.heading {
+  margin-bottom: 15px;
+}
+.pcolor1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 4% 0%;
+  font-family: "Times New Roman", Times, serif;
+}
